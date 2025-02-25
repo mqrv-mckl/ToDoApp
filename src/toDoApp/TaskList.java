@@ -114,12 +114,7 @@ class TaskList {
 	}
 
 	private boolean taskListIsEmpty() {
-		if (list.isEmpty()) {
-			System.out.println("task list is empty");
-			return true;
-		} else {
-			return false;
-		}
+		return list.isEmpty();
 	}
 
 }
