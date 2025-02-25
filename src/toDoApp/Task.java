@@ -15,6 +15,10 @@ public class Task {
 		this.priority = priority;
 	}
 
+	public Task(String title, LocalDate deadline, Priority priority) {
+		this(title, "[EMPTY]", deadline, priority);
+	}
+
 	public String getTitle() {
 		return title;
 	}
