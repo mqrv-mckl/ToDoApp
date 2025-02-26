@@ -31,6 +31,12 @@ class Main {
 		TaskList taskList = new TaskList("myTasks", List.of(t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12));
 
 		taskList.sortTasksByPriority().printList();
+
+		testFrame();
+	}
+
+	private static void testFrame() {
+		MainFrame mainFrame = new MainFrame();
 	}
 
 }
